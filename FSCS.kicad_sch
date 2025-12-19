@@ -1,0 +1,264 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ba1ed24e-2f87-4768-b11d-8994220f6689")
+	(paper "A4")
+	(lib_symbols)
+	(text "pin connection for rp_usb and esp_usb\nto be done later\n"
+		(exclude_from_sim no)
+		(at 146.812 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4096cde7-d010-40e3-831c-71cd6d6cc7b6")
+	)
+	(text "camera to be added at last\n"
+		(exclude_from_sim no)
+		(at 144.78 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "63312fdb-4e08-4703-8fe8-e2af7cac3c5d")
+	)
+	(text "the communication protocol between the 2 mcu to be decided before peripherals\n"
+		(exclude_from_sim no)
+		(at 153.162 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80539fb6-3d19-4416-91b3-d5e434ad5ac4")
+	)
+	(text "peripherals like mpu6050 and others to be done later\n"
+		(exclude_from_sim no)
+		(at 148.336 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c391248-9f9d-4741-864b-7e730dcbb5b6")
+	)
+	(sheet
+		(at 38.1 66.04)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "253e9d9d-7ea8-4bb0-9cb3-3eeba9d429fe")
+		(property "Sheetname" "port"
+			(at 38.1 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "port.kicad_sch"
+			(at 38.1 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FSCS"
+				(path "/ba1ed24e-2f87-4768-b11d-8994220f6689"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 106.68)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4176bb88-82ac-40ee-acbe-71957ba80441")
+		(property "Sheetname" "MPU6050"
+			(at 38.1 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MPU6050.kicad_sch"
+			(at 38.1 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FSCS"
+				(path "/ba1ed24e-2f87-4768-b11d-8994220f6689"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 77.47)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "506d2521-07ca-43fc-beb0-f6b5ec18cb6a")
+		(property "Sheetname" "SERVO"
+			(at 38.1 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SERVO.kicad_sch"
+			(at 38.1 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FSCS"
+				(path "/ba1ed24e-2f87-4768-b11d-8994220f6689"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 40.64)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5fd234ac-5051-44de-a974-272eced005d4")
+		(property "Sheetname" "POWER"
+			(at 38.1 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 38.1 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FSCS"
+				(path "/ba1ed24e-2f87-4768-b11d-8994220f6689"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 91.44)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b96f0b93-96a8-4cf2-84d4-f7f2f5926f58")
+		(property "Sheetname" "rp2350"
+			(at 38.1 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp2350.kicad_sch"
+			(at 38.1 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FSCS"
+				(path "/ba1ed24e-2f87-4768-b11d-8994220f6689"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,16 @@
+# KiCad temporary files
+*.bak
+*.tmp
+*.kicad_sch-bak
+*.kicad_pcb-bak
+_autosave-*
+*.lck
+*.net
+*.dcm
+
+# Gerbers & fabrication outputs
+gerbers/
+fabrication/
+
+# 3D cache
+3d-cache/
