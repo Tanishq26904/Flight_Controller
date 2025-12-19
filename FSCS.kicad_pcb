@@ -17526,19 +17526,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TANISHQ"
-		(at 145.19 121.15 0)
-		(layer "B.SilkS")
-		(uuid "96cef6ac-fd32-4daf-a1ee-f713e1a9a684")
-		(effects
-			(font
-				(size 4 4)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
 	(dimension
 		(type orthogonal)
 		(layer "F.Cu")
